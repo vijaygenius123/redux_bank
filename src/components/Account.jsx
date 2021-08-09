@@ -11,9 +11,8 @@ const Account = () => {
         <>
             <h1>Account Balance</h1>
             <p>{account.balance}</p>
-
-            <button onClick={() => depositMoney(100)}>Deposit</button>
-            <button onClick={() => withdrawMoney(100)}>Withdraw</button>
+            <button className="btn btn-primary m-1" onClick={() => depositMoney(100)}>Deposit</button>
+            <button className="btn btn-primary m-1" onClick={() => withdrawMoney(100)}>Withdraw</button>
         </>
     )
 }
